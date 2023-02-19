@@ -1,0 +1,131 @@
+:root {
+    --main-color-text: #000248;
+    --main-color-hover: #702fff;
+    --color-green: #00d09c;
+    --color-gray: #adb5bd;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --main-transition: 0.3s;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 106px;
+}
+
+.d-grid-tow {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0px 40px;
+}
+
+.btn-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-flex-tow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-flex-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+.mr-25 {
+    margin-right: 25px;
+}
+.c-green {
+    color: #00d09c;
+}
+.c-white {
+    color: white;
+}
+.bc-green {
+    background-color: rgba(0, 208, 156, .1);
+}
+
+.bc-pruple {
+    background-color: #702fff;
+}
+
+.bc-green-tow {
+    background-color: rgb(0, 208, 156);
+}
+
+.bc-orange {
+    background-color: rgb(255, 94, 0);
+}
+
+.bc-blue {
+    background-color: rgb(47, 0, 255);
+}
+
+.bc-yolow {
+    background-color: #ffe100;
+}
+
+.bc-sky {
+    background-color: #2c9dff;
+}
+
+.c-sky {
+    background-color: #005fb2;
+}
+
+.bg-white {
+    background-color: white;
+}
+.txt-c {
+    text-align: center;
+}
+
+@media (max-width:767px) {
+    .f-column {
+        flex-direction:column ;
+    }
+}
+@media (max-width:992px){
+    .f-column-tap {
+        flex-direction:column ;
+    }
+}
+
+@media (max-width:767px) {
+    .d-none {
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .d-none-tap {
+        display: none;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .d-none-m-t {
+        display: none;
+    }
+}
+.d-none-large {
+    
+}
